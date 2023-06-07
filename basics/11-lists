@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e "\nListing files in the /boot directory:" /cd /boot /ls -la
+ls -la && (cd .. && ls -la) && (cd /boot && ls -la)
