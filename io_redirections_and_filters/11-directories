@@ -1,2 +1,2 @@
 #!/bin/bash
-tree . ls -type d
+find -type d | wc -l
