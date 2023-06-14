@@ -1,2 +1,2 @@
 #!/bin/bash
-cat |sort -u |ls -1
+cat |sort -u
